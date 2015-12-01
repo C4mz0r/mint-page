@@ -1,18 +1,89 @@
+header {
+  margin: 10px auto;
+  /* background-color: red; */
+  width: 700px;  
+}
+
+span {
+  float: right;
+  margin-top: 15px;
+}
+
 #left {
-  background-color: yellow;
+  /* background-color: yellow; */
   float:left;
+  font-size: 14px;
+}
+
+input, select{
+  font-size: 14px;
+  width: 250px;
+  height: 24px;
+}
+
+#checkbox {
+  width: 10px;
 }
 
 #right {
-  background-color: gray;
+  
   float:left;
   font-size: 12px;  
+  height: 500px;
+  margin-top: 110px;
+  border-left: 1px solid #CCC;
+  margin-left: 20px;
+}
+
+#why {
+  margin-left: 20px;
+  background-color: #F5F5F5;
+  height: 500px;
+  margin-top: -15px;
+  padding-right: 20px;
+}
+
+#why > h2 {
+  padding-left: 25px;
+  padding-top: 25px;
+  color: #666;
+}
+
+#container {  
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 3px 8px 0px;
+  display: table;
+  margin: auto;
+  padding: 50px;
+}
+
+#submit-button {
+  background-color: #42C0DB;
+  color: white;
+  border-radius: 5px;
+  border: 0 none;
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
 }
 
 li {
   padding-bottom: 10px;
+  width: 140px;
+  color: #666;
 }
 
 footer {
   clear:both;
+  text-align: center;
+  color: #A5A5A5;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+* {
+  font-family: arial;
+}
+
+input, select {
+  margin-bottom: 20px
 }
