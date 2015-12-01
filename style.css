@@ -1,0 +1,18 @@
+#left {
+  background-color: yellow;
+  float:left;
+}
+
+#right {
+  background-color: gray;
+  float:left;
+  font-size: 12px;  
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+footer {
+  clear:both;
+}
